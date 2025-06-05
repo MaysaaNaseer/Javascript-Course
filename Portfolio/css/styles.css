@@ -109,7 +109,7 @@ footer {
 /***** Navbar Styling *****/
 .Navbar {
     overflow: hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
-    background-color: black; /* This colors the navbar black */
+    background-color: #3f2f1c; /* Dark bronze */
     position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
     top: 0; /* This ensures no space is displayed above the navbar */
     width: 100%; /* This makes the navbar span the entire width of the page */
@@ -148,15 +148,15 @@ footer {
 
 /*Navbar hover effects */
 .Navbar a:hover {
-    background-color: #f4f4f4; /* Defines the background color that will display when you hover over the link */
-    color: black; /* This defines the font color that will display when navbar a elements are hovered over */
+    background-color: #cba135; /* Gold bronze hover */
+    color: white;
     cursor: pointer;
     transition: 0.5s ease-in;
 }
 
 /* Navbar home button */
 .Navbar a.active { /* This targets the a element on the navbar with the "active" class */
-    background-color: darkgray;
+    background-color: #8c6239; /* Muted bronze */
 }
 /***** End of Navbar Styling *****/
 
@@ -336,9 +336,9 @@ footer {
     bottom: 1.75vw; /* Positions the button slightly up from the bottom of the viewport */
     right: 1.75vw; /* Positions the viewport slightly right from the side of the viewport */
     width: 25vw; /* Sets the width relative to the viewport width */
-    background-color: white; /* Sets the background color of the button to white */
-    color: black; /* Sets the color of the button text to black */
-    border: solid black; /* This makes a solid black border around the button */
+    background-color: #cba135; 
+    border: solid #3f2f1c;
+    color: white;
     cursor: pointer; /* This changes the cursor when hovered over the button to a pointer */
     -webkit-animation: movePopup 5s; /* Animation for 5 seconds for Safari 4.0-8.0 */
     animation: movePopup 5s; /* Animation set for 5 seconds */
@@ -404,9 +404,9 @@ button:hover, .form-container .btn:hover {
 
 /* Submit button */
 .form-container .btn {
-    background-color: white; 
-    color: black;
-    border-color: black;
+    background-color: #cba135;
+    border-color: #3f2f1c;
+    color:white;
     margin-bottom: 1vh; /* Adds space between the submit button and the close button */
 }
 
